@@ -1,5 +1,6 @@
 ﻿using BepInEx;
 using HarmonyLib;
+using HarmonyLib.Tools;
 
 namespace BannerUnitInfo
 {
@@ -12,11 +13,13 @@ namespace BannerUnitInfo
 
         public void Awake()
         {
+            HarmonyFileLog.Enabled = true;
             Logger.LogInfo("This is info");
             Logger.LogWarning("This is a warning");
             Logger.LogError("This is an error");
             var harmony = new Harmony(modGUID);
             harmony.PatchAll();
+            FileLog.Log("Harmony log test");
         }
     }
 }
