@@ -8,9 +8,9 @@ namespace BannerUnitInfo
     {
         [HarmonyPostfix]
         [HarmonyPatch(nameof(CardFrameUI.SetTextContent))]
-        private static void DisableFactionLabel(TMP_Text factionLabel)
+        private static void DisableFactionLabel(ref TMP_Text ___factionLabel)
         {
-            factionLabel.gameObject.SetActive(false);
+            ___factionLabel.gameObject.SetActive(false);
         }
     }
 }
