@@ -2,9 +2,8 @@
 
 namespace BannerUnitInfo
 {
-    [HarmonyPatch(typeof(CharacterData))]
-    [HarmonyPatch("GetName")]
-    public static class CharacterDataPatch
+    [HarmonyPatch(typeof(CharacterData), nameof(CharacterData.GetName))]
+    public static class NameSteveOnCharacter
     {
         private static void Postfix(ref string __result)
         {

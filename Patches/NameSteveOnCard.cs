@@ -2,9 +2,8 @@
 
 namespace BannerUnitInfo
 {
-    [HarmonyPatch(typeof(CardState))]
-    [HarmonyPatch("GetTitle")]
-    public static class CardStatePatch
+    [HarmonyPatch(typeof(CardState), nameof(CardState.GetTitle))]
+    public static class NameSteveOnCard
     {
         private static void Postfix(ref string __result)
         {
