@@ -2,8 +2,11 @@
 
 namespace BannerUnitInfo
 {
+    // This patch is just for testing.
+
+    /*
     [HarmonyPatch(typeof(CharacterData), nameof(CharacterData.GetName))]
-    public static class NameSteveOnCharacter
+    public static class Test-NameSteveOnCharacter
     {
         private static void Postfix(ref string __result)
         {
@@ -13,4 +16,5 @@ namespace BannerUnitInfo
             }
         }
     }
+    */
 }

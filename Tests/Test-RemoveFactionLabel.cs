@@ -3,6 +3,8 @@ using TMPro;
 
 namespace BannerUnitInfo
 {
+    // This patch is just for testing.
+
     /*
     [HarmonyPatch(typeof(CardFrameUI), nameof(CardFrameUI.SetTextContent))]
     public static class RemoveFactionLabel
