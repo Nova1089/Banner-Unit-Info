@@ -13,10 +13,7 @@ namespace BannerUnitInfo
 
         public void Awake()
         {
-            HarmonyFileLog.Enabled = true;
-            // Logger.LogInfo("This is info");
-            // Logger.LogWarning("This is a warning");
-            // Logger.LogError("This is an error");
+            // HarmonyFileLog.Enabled = true;
             var harmony = new Harmony(modGUID);
             harmony.PatchAll();
         }

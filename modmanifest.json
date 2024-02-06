@@ -1,6 +1,6 @@
 {
   "Title": "Banner Unit Info",
-  "Description": "Adds a banner indicator to banner unit cards.",
+  "Description": "Shows which units are \"banner\" units in the subtype text of the card, and shows it on the character tooltip when the character is on the train",
   "CosmeticOnly": true,
   "Tags": ["QOL", "Cosmetic", "UI"]
 }
