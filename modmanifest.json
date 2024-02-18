@@ -1,4 +1,5 @@
 {
+  "ModId": 3155019010,
   "Title": "Banner Unit Info",
   "Description": "Shows which units are banner units (a.k.a priority units) in the subtype text of the card, shows it on the tooltip when the character is on the train, and allows you to search by the word \"banner\" in the logbook.",
   "CosmeticOnly": true,
