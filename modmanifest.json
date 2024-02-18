@@ -1,6 +1,7 @@
 {
   "Title": "Banner Unit Info",
-  "Description": "Shows which units are \"banner\" units in the subtype text of the card, and shows it on the character tooltip when the character is on the train",
+  "Description": "Shows which units are banner units (a.k.a priority units) in the subtype text of the card, shows it on the tooltip when the character is on the train, and allows you to search by the word \"banner\" in the logbook.",
   "CosmeticOnly": true,
-  "Tags": ["QOL", "Cosmetic", "UI"]
+  "Tags": [ "QOL", "Cosmetic", "UI" ],
+  "ChangeLog": "Fixed issue where champions on most custom clans were indicated as banner units because they were flagged as banner units by default."
 }

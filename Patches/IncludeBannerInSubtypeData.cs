@@ -9,7 +9,8 @@ namespace BannerUnitInfo
     {
         private static void Postfix(List<SubtypeData> subtypes, StringBuilder stringBuilder)
         {
-            if (subtypes.Exists((SubtypeData s) => s.Key == "SubtypesData_Chosen"))
+            if (subtypes.Exists((SubtypeData s) => s.Key == "SubtypesData_Chosen") &&
+               !subtypes.Exists((SubtypeData s) => s.IsChampion ))
             {
                 stringBuilder.Append(" (Banner)");
             }
