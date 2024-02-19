@@ -9,7 +9,7 @@ namespace BannerUnitInfo
     {
         public const string modGUID = "Nova.BannerUnitInfo";
         public const string modName = "Banner Unit Info";
-        public const string modVersion = "1.0.1";
+        public const string modVersion = "1.0.2";
 
         public void Awake()
         {
