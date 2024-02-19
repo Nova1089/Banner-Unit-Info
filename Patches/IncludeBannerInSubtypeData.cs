@@ -12,7 +12,7 @@ namespace BannerUnitInfo
             if (subtypes.Exists((SubtypeData s) => s.Key == "SubtypesData_Chosen") &&
                !subtypes.Exists((SubtypeData s) => s.IsChampion ))
             {
-                stringBuilder.Append(" (Banner)");
+                stringBuilder.Append(" (B)");
             }
         }
     }
